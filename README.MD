@@ -1,6 +1,6 @@
 # Linux Based Server Configuration Project
 
-Host name: http://ec2-52-66-38-19.ap-south-1.compute.amazonaws.com/
+Host name and complet URL: http://ec2-52-66-38-19.ap-south-1.compute.amazonaws.com/
 Project IP: 52.66.38.19
 
 This file reviews the steps taken to launch a project named Catalog using Amazon Lightsail'sremote Linux  server.
@@ -298,7 +298,6 @@ PasswordAuthentication no
 ```
 
 Save and restart the server
-
 
 ```
 sudo service ssh restart
